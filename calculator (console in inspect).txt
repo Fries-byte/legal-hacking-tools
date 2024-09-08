@@ -1,0 +1,6 @@
+let q1 = Number(prompt("problem1: "))
+let q2 = Number(prompt("problem2: "))
+Number("q1");
+Number("q2");
+let math = q1 + q2
+window.alert(math);

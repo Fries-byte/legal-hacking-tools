@@ -1,0 +1,9 @@
+let cmd = prompt("edit font? Y/N. /Y, type "yes". /N, cancel button");
+
+if (cmd.toLowerCase() === "yes") {
+  run();
+}
+
+function run() {
+    document.body.style.fontFamily = "Cursive";
+}

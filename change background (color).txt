@@ -1,0 +1,9 @@
+let cmd = prompt("edit text Y/N? /Y, type "yes" /N, cancel.");
+
+if (cmd.toLowerCase() === "yes") {
+  run();
+}
+
+function run() {
+    document.body.style.backgroundColor = "#000000";
+}
